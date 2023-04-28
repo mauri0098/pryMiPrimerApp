@@ -12,6 +12,11 @@ namespace pryMiPrimerApp
 {
     public partial class frmPrincipal : Form
     {
+   
+        //decalracion de variables 
+        decimal varingreso, varalquiler, varcomida, varmonto;
+
+
         public frmPrincipal()
         {
             InitializeComponent();
@@ -72,6 +77,13 @@ namespace pryMiPrimerApp
 
         }
 
+        private void cmdgrabar_Click(object sender, EventArgs e)
+        {
+            varalquiler = Convert.ToDecimal(txtalquiler.Text);
+            varingreso = Convert.ToDecimal(txtIngreso.Text);
+            varmonto = Convert.ToDecimal(txtmonto.Text);
+        }
+
         private void iblcomida_Click(object sender, EventArgs e)
         {
 
@@ -80,6 +92,17 @@ namespace pryMiPrimerApp
         private void button1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void frmPrincipal_Load(object sender, EventArgs e)
+        {
+            //inicialiazar variables - buena practica 
+            varalquiler = 0;
+            varcomida = 0;
+            varingreso = 0;
+            varmonto = 0;
+
+          
         }
     }
 }

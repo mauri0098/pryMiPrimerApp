@@ -176,6 +176,7 @@
             this.cmdgrabar.TabIndex = 5;
             this.cmdgrabar.Text = "Grabar";
             this.cmdgrabar.UseVisualStyleBackColor = true;
+            this.cmdgrabar.Click += new System.EventHandler(this.cmdgrabar_Click);
             // 
             // frmPrincipal
             // 
@@ -191,6 +192,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmPrincipal";
             this.Text = "Gestión de Gastos Mensuales";
+            this.Load += new System.EventHandler(this.frmPrincipal_Load);
             this.mrcgastofijo.ResumeLayout(false);
             this.mrcgastofijo.PerformLayout();
             this.mrcgastosvarios.ResumeLayout(false);
