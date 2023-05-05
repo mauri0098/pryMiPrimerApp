@@ -12,9 +12,20 @@ namespace pryMiPrimerApp
 {
     public partial class frmAlacena : Form
     {
+        //decalracion de variables
+        string varProductosLacteos, varProducto, varMarca, varMarca2;
+
+        int varCantidad;
+          
+
+
+
+
         public frmAlacena()
         {
+
             InitializeComponent();
+                        
         }
 
         private void groupBox1_Enter(object sender, EventArgs e)
@@ -62,7 +73,38 @@ namespace pryMiPrimerApp
 
         }
 
+        private void cmdGuardar_Click(object sender, EventArgs e)
+        {
+            varProducto = cboProducto.Text;
+            varMarca2 = cboMarca2.Text;
+            varCantidad = Convert.ToInt32(nudCantidad.Value);
+            //varCantidad = int.Parse(nudCantidad.value);
+
+            istAlacena.Items.Add(varProducto + " " + varMarca2 + " " + varCantidad);
+
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
         private void iblCantidad_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void iblMarca_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frmAlacena_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cmdCancelar_Click(object sender, EventArgs e)
         {
 
         }

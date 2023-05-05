@@ -99,6 +99,7 @@
             this.txtalquiler.Name = "txtalquiler";
             this.txtalquiler.Size = new System.Drawing.Size(53, 20);
             this.txtalquiler.TabIndex = 3;
+            this.txtalquiler.TextChanged += new System.EventHandler(this.txtalquiler_TextChanged);
             // 
             // lblcomida
             // 
@@ -160,7 +161,7 @@
             // 
             // cmdcancelar
             // 
-            this.cmdcancelar.Location = new System.Drawing.Point(15, 231);
+            this.cmdcancelar.Location = new System.Drawing.Point(9, 219);
             this.cmdcancelar.Name = "cmdcancelar";
             this.cmdcancelar.Size = new System.Drawing.Size(68, 26);
             this.cmdcancelar.TabIndex = 4;
@@ -170,7 +171,7 @@
             // 
             // cmdgrabar
             // 
-            this.cmdgrabar.Location = new System.Drawing.Point(89, 232);
+            this.cmdgrabar.Location = new System.Drawing.Point(86, 219);
             this.cmdgrabar.Name = "cmdgrabar";
             this.cmdgrabar.Size = new System.Drawing.Size(66, 25);
             this.cmdgrabar.TabIndex = 5;
@@ -182,7 +183,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(161, 273);
+            this.ClientSize = new System.Drawing.Size(161, 256);
             this.Controls.Add(this.cmdgrabar);
             this.Controls.Add(this.cmdcancelar);
             this.Controls.Add(this.mrcgastosvarios);

@@ -82,6 +82,15 @@ namespace pryMiPrimerApp
             varalquiler = Convert.ToDecimal(txtalquiler.Text);
             varingreso = Convert.ToDecimal(txtIngreso.Text);
             varmonto = Convert.ToDecimal(txtmonto.Text);
+            varcomida = Convert.ToDecimal(txtcomida.Text);
+
+            varmonto = varingreso - (varalquiler - varcomida);
+            txtmonto.Text = varmonto.ToString();
+        }
+
+        private void txtalquiler_TextChanged(object sender, EventArgs e)
+        {
+
         }
 
         private void iblcomida_Click(object sender, EventArgs e)
