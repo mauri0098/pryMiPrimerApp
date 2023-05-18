@@ -80,7 +80,7 @@ namespace pryMiPrimerApp
             varCantidad = Convert.ToInt32(nudCantidad.Value);
             //varCantidad = int.Parse(nudCantidad.value);
 
-            istAlacena.Items.Add(varProducto + " " + varMarca2 + " " + varCantidad);
+            lstAlacena.Items.Add(varProducto + " " + varMarca2 + " " + varCantidad);
 
         }
 

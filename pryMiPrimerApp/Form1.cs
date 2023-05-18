@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace pryMiPrimerApp
 {
-    public partial class frmPrincipal : Form
+    public partial class frmFinanzas : Form
     {
    
         //decalracion de variables 
         decimal varingreso, varalquiler, varcomida, varmonto;
 
 
-        public frmPrincipal()
+        public frmFinanzas()
         {
             InitializeComponent();
         }
@@ -79,13 +79,13 @@ namespace pryMiPrimerApp
 
         private void cmdgrabar_Click(object sender, EventArgs e)
         {
-            varalquiler = Convert.ToDecimal(txtalquiler.Text);
+            varalquiler = Convert.ToDecimal(txtAlquiler.Text);
             varingreso = Convert.ToDecimal(txtIngreso.Text);
-            varmonto = Convert.ToDecimal(txtmonto.Text);
-            varcomida = Convert.ToDecimal(txtcomida.Text);
+            varmonto = Convert.ToDecimal(txtMonto.Text);
+            varcomida = Convert.ToDecimal(txtComida.Text);
 
             varmonto = varingreso - (varalquiler - varcomida);
-            txtmonto.Text = varmonto.ToString();
+            txtMonto.Text = varmonto.ToString();
         }
 
         private void txtalquiler_TextChanged(object sender, EventArgs e)

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace pryMiPrimerApp
 {
-    public partial class fmrprincipal : Form
+    public partial class fmrPrincipal : Form
     {
-        public fmrprincipal()
+        public fmrPrincipal()
         {
             InitializeComponent();
         }
@@ -22,6 +22,22 @@ namespace pryMiPrimerApp
             frmAlacena ventanaAlacena = new frmAlacena();
 
             ventanaAlacena.ShowDialog();
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            frmFinanzas principal = new frmFinanzas();
+            principal.ShowDialog();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
+        {
 
         }
     }
