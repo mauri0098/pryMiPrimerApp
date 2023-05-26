@@ -28,37 +28,40 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.cmdAlacena = new System.Windows.Forms.Button();
+            this.cmdAlmacen = new System.Windows.Forms.Button();
             this.cmdFinanzas = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // cmdAlacena
+            // cmdAlmacen
             // 
-            this.cmdAlacena.Location = new System.Drawing.Point(228, 29);
-            this.cmdAlacena.Name = "cmdAlacena";
-            this.cmdAlacena.Size = new System.Drawing.Size(222, 268);
-            this.cmdAlacena.TabIndex = 0;
-            this.cmdAlacena.Text = "Alacena";
-            this.cmdAlacena.UseVisualStyleBackColor = true;
-            this.cmdAlacena.Click += new System.EventHandler(this.button1_Click);
+            this.cmdAlmacen.BackColor = System.Drawing.Color.PeachPuff;
+            this.cmdAlmacen.Location = new System.Drawing.Point(228, 29);
+            this.cmdAlmacen.Name = "cmdAlmacen";
+            this.cmdAlmacen.Size = new System.Drawing.Size(222, 268);
+            this.cmdAlmacen.TabIndex = 0;
+            this.cmdAlmacen.Text = "Almacen";
+            this.cmdAlmacen.UseVisualStyleBackColor = false;
+            this.cmdAlmacen.Click += new System.EventHandler(this.button1_Click);
             // 
             // cmdFinanzas
             // 
+            this.cmdFinanzas.BackColor = System.Drawing.Color.LightYellow;
             this.cmdFinanzas.Location = new System.Drawing.Point(12, 29);
             this.cmdFinanzas.Name = "cmdFinanzas";
             this.cmdFinanzas.Size = new System.Drawing.Size(210, 268);
             this.cmdFinanzas.TabIndex = 1;
             this.cmdFinanzas.Text = "Finanzas";
-            this.cmdFinanzas.UseVisualStyleBackColor = true;
+            this.cmdFinanzas.UseVisualStyleBackColor = false;
             this.cmdFinanzas.Click += new System.EventHandler(this.button2_Click);
             // 
             // fmrPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.SeaShell;
             this.ClientSize = new System.Drawing.Size(460, 304);
             this.Controls.Add(this.cmdFinanzas);
-            this.Controls.Add(this.cmdAlacena);
+            this.Controls.Add(this.cmdAlmacen);
             this.Name = "fmrPrincipal";
             this.Text = "fmrprincipal";
             this.ResumeLayout(false);
@@ -67,7 +70,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button cmdAlacena;
+        private System.Windows.Forms.Button cmdAlmacen;
         private System.Windows.Forms.Button cmdFinanzas;
     }
 }

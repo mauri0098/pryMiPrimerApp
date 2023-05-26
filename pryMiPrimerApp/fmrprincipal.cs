@@ -19,7 +19,7 @@ namespace pryMiPrimerApp
 
         private void button1_Click(object sender, EventArgs e)
         {
-            frmAlacena ventanaAlacena = new frmAlacena();
+            frmAlmancen ventanaAlacena = new frmAlmancen();
 
             ventanaAlacena.ShowDialog();
 

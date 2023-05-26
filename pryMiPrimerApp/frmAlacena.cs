@@ -10,18 +10,18 @@ using System.Windows.Forms;
 
 namespace pryMiPrimerApp
 {
-    public partial class frmAlacena : Form
+    public partial class frmAlmancen : Form
     {
         //decalracion de variables
-        string varProductosLacteos, varProducto, varMarca, varMarca2, varproducto2, varmarca, varcantidad2;
+        string varProductosLacteos, varProducto, varMarca, varMarca2, varproducto2, varmarca;
 
-        int varCantidad;
+        int varCantidad , varcantidad2;
           
 
 
 
 
-        public frmAlacena()
+        public frmAlmancen()
         {
 
             InitializeComponent();
@@ -73,11 +73,17 @@ namespace pryMiPrimerApp
 
         }
 
+        private void lblMarca2_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void cmdGuardar_Click(object sender, EventArgs e)
         {
             varproducto2 = cboProducto2.Text;
             varMarca = cboMarca.Text;
-            
+            varcantidad2 = Convert.ToInt32(nudCantidad2.Value);
+            //varCantidad2 = int.Parse(nudCantidad2.value);
             varProducto = cboProducto.Text;
             varMarca2 = cboMarca2.Text;
             varCantidad = Convert.ToInt32(nudCantidad.Value);

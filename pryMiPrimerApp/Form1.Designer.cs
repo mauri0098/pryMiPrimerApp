@@ -178,6 +178,7 @@
             // cmdCancelar
             // 
             this.cmdCancelar.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmdCancelar.ForeColor = System.Drawing.Color.Black;
             this.cmdCancelar.Location = new System.Drawing.Point(128, 306);
             this.cmdCancelar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.cmdCancelar.Name = "cmdCancelar";
@@ -190,7 +191,8 @@
             // cmdGrabar
             // 
             this.cmdGrabar.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmdGrabar.Location = new System.Drawing.Point(23, 306);
+            this.cmdGrabar.ForeColor = System.Drawing.Color.Black;
+            this.cmdGrabar.Location = new System.Drawing.Point(19, 306);
             this.cmdGrabar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.cmdGrabar.Name = "cmdGrabar";
             this.cmdGrabar.Size = new System.Drawing.Size(77, 36);
