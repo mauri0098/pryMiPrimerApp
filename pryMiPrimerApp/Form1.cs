@@ -93,6 +93,26 @@ namespace pryMiPrimerApp
 
         }
 
+        private void txtComida_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblIngreso_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtIngreso_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtMonto_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
         private void iblcomida_Click(object sender, EventArgs e)
         {
 
