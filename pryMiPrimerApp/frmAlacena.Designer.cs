@@ -145,7 +145,7 @@
             // 
             this.cmdGuardar.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmdGuardar.ForeColor = System.Drawing.Color.Black;
-            this.cmdGuardar.Location = new System.Drawing.Point(25, 431);
+            this.cmdGuardar.Location = new System.Drawing.Point(3, 431);
             this.cmdGuardar.Name = "cmdGuardar";
             this.cmdGuardar.Size = new System.Drawing.Size(75, 43);
             this.cmdGuardar.TabIndex = 2;
@@ -157,7 +157,7 @@
             // 
             this.cmdCancelar.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmdCancelar.ForeColor = System.Drawing.Color.Black;
-            this.cmdCancelar.Location = new System.Drawing.Point(145, 431);
+            this.cmdCancelar.Location = new System.Drawing.Point(109, 431);
             this.cmdCancelar.Name = "cmdCancelar";
             this.cmdCancelar.Size = new System.Drawing.Size(75, 43);
             this.cmdCancelar.TabIndex = 3;
