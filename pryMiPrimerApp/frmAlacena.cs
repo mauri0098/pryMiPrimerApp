@@ -78,6 +78,16 @@ namespace pryMiPrimerApp
 
         }
 
+        private void mrcHeladera_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cboMarca_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
         private void cmdGuardar_Click(object sender, EventArgs e)
         {
             varproducto2 = cboProducto2.Text;
