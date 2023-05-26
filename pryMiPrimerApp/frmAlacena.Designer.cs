@@ -38,8 +38,18 @@
             this.cmdGuardar = new System.Windows.Forms.Button();
             this.cmdCancelar = new System.Windows.Forms.Button();
             this.lstAlacena = new System.Windows.Forms.ListBox();
+            this.mrcHeladera = new System.Windows.Forms.GroupBox();
+            this.nudCantidad2 = new System.Windows.Forms.NumericUpDown();
+            this.cboMarca = new System.Windows.Forms.ComboBox();
+            this.lblMarca2 = new System.Windows.Forms.Label();
+            this.lblCantidad2 = new System.Windows.Forms.Label();
+            this.lblProductos2 = new System.Windows.Forms.Label();
+            this.cboProducto2 = new System.Windows.Forms.ComboBox();
+            this.lstHeladera = new System.Windows.Forms.ListBox();
             this.mrcAlacena.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudCantidad)).BeginInit();
+            this.mrcHeladera.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudCantidad2)).BeginInit();
             this.SuspendLayout();
             // 
             // mrcAlacena
@@ -50,7 +60,7 @@
             this.mrcAlacena.Controls.Add(this.lblCantidad);
             this.mrcAlacena.Controls.Add(this.lblProductos);
             this.mrcAlacena.Controls.Add(this.cboProducto);
-            this.mrcAlacena.Location = new System.Drawing.Point(2, 12);
+            this.mrcAlacena.Location = new System.Drawing.Point(12, 163);
             this.mrcAlacena.Name = "mrcAlacena";
             this.mrcAlacena.Size = new System.Drawing.Size(241, 140);
             this.mrcAlacena.TabIndex = 1;
@@ -121,7 +131,7 @@
             // 
             // cmdGuardar
             // 
-            this.cmdGuardar.Location = new System.Drawing.Point(33, 364);
+            this.cmdGuardar.Location = new System.Drawing.Point(34, 548);
             this.cmdGuardar.Name = "cmdGuardar";
             this.cmdGuardar.Size = new System.Drawing.Size(75, 23);
             this.cmdGuardar.TabIndex = 2;
@@ -131,7 +141,7 @@
             // 
             // cmdCancelar
             // 
-            this.cmdCancelar.Location = new System.Drawing.Point(122, 364);
+            this.cmdCancelar.Location = new System.Drawing.Point(150, 548);
             this.cmdCancelar.Name = "cmdCancelar";
             this.cmdCancelar.Size = new System.Drawing.Size(75, 23);
             this.cmdCancelar.TabIndex = 3;
@@ -142,17 +152,101 @@
             // lstAlacena
             // 
             this.lstAlacena.FormattingEnabled = true;
-            this.lstAlacena.Location = new System.Drawing.Point(2, 158);
+            this.lstAlacena.Location = new System.Drawing.Point(10, 434);
             this.lstAlacena.Name = "lstAlacena";
-            this.lstAlacena.Size = new System.Drawing.Size(241, 186);
+            this.lstAlacena.Size = new System.Drawing.Size(215, 108);
             this.lstAlacena.TabIndex = 4;
             this.lstAlacena.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
+            // 
+            // mrcHeladera
+            // 
+            this.mrcHeladera.Controls.Add(this.nudCantidad2);
+            this.mrcHeladera.Controls.Add(this.cboMarca);
+            this.mrcHeladera.Controls.Add(this.lblMarca2);
+            this.mrcHeladera.Controls.Add(this.lblCantidad2);
+            this.mrcHeladera.Controls.Add(this.lblProductos2);
+            this.mrcHeladera.Controls.Add(this.cboProducto2);
+            this.mrcHeladera.Location = new System.Drawing.Point(12, 12);
+            this.mrcHeladera.Name = "mrcHeladera";
+            this.mrcHeladera.Size = new System.Drawing.Size(241, 140);
+            this.mrcHeladera.TabIndex = 5;
+            this.mrcHeladera.TabStop = false;
+            this.mrcHeladera.Text = "Heladera";
+            // 
+            // nudCantidad2
+            // 
+            this.nudCantidad2.Location = new System.Drawing.Point(120, 53);
+            this.nudCantidad2.Name = "nudCantidad2";
+            this.nudCantidad2.Size = new System.Drawing.Size(95, 20);
+            this.nudCantidad2.TabIndex = 7;
+            // 
+            // cboMarca
+            // 
+            this.cboMarca.FormattingEnabled = true;
+            this.cboMarca.Items.AddRange(new object[] {
+            "Rosamonte",
+            "Dos Hermanos",
+            "Don felipe"});
+            this.cboMarca.Location = new System.Drawing.Point(118, 84);
+            this.cboMarca.Name = "cboMarca";
+            this.cboMarca.Size = new System.Drawing.Size(95, 21);
+            this.cboMarca.TabIndex = 6;
+            // 
+            // lblMarca2
+            // 
+            this.lblMarca2.AutoSize = true;
+            this.lblMarca2.Location = new System.Drawing.Point(51, 87);
+            this.lblMarca2.Name = "lblMarca2";
+            this.lblMarca2.Size = new System.Drawing.Size(37, 13);
+            this.lblMarca2.TabIndex = 4;
+            this.lblMarca2.Text = "Marca";
+            // 
+            // lblCantidad2
+            // 
+            this.lblCantidad2.AutoSize = true;
+            this.lblCantidad2.Location = new System.Drawing.Point(48, 59);
+            this.lblCantidad2.Name = "lblCantidad2";
+            this.lblCantidad2.Size = new System.Drawing.Size(49, 13);
+            this.lblCantidad2.TabIndex = 3;
+            this.lblCantidad2.Text = "Cantidad";
+            // 
+            // lblProductos2
+            // 
+            this.lblProductos2.AutoSize = true;
+            this.lblProductos2.Location = new System.Drawing.Point(48, 29);
+            this.lblProductos2.Name = "lblProductos2";
+            this.lblProductos2.Size = new System.Drawing.Size(58, 13);
+            this.lblProductos2.TabIndex = 2;
+            this.lblProductos2.Text = "Productos ";
+            // 
+            // cboProducto2
+            // 
+            this.cboProducto2.FormattingEnabled = true;
+            this.cboProducto2.Items.AddRange(new object[] {
+            "Fideos",
+            "Arroz",
+            "Azucar",
+            "Yerba"});
+            this.cboProducto2.Location = new System.Drawing.Point(120, 26);
+            this.cboProducto2.Name = "cboProducto2";
+            this.cboProducto2.Size = new System.Drawing.Size(95, 21);
+            this.cboProducto2.TabIndex = 0;
+            // 
+            // lstHeladera
+            // 
+            this.lstHeladera.FormattingEnabled = true;
+            this.lstHeladera.Location = new System.Drawing.Point(10, 320);
+            this.lstHeladera.Name = "lstHeladera";
+            this.lstHeladera.Size = new System.Drawing.Size(215, 108);
+            this.lstHeladera.TabIndex = 6;
             // 
             // frmAlacena
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(248, 399);
+            this.ClientSize = new System.Drawing.Size(496, 637);
+            this.Controls.Add(this.lstHeladera);
+            this.Controls.Add(this.mrcHeladera);
             this.Controls.Add(this.lstAlacena);
             this.Controls.Add(this.cmdCancelar);
             this.Controls.Add(this.cmdGuardar);
@@ -163,6 +257,9 @@
             this.mrcAlacena.ResumeLayout(false);
             this.mrcAlacena.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudCantidad)).EndInit();
+            this.mrcHeladera.ResumeLayout(false);
+            this.mrcHeladera.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudCantidad2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -178,5 +275,13 @@
         private System.Windows.Forms.Button cmdGuardar;
         private System.Windows.Forms.Button cmdCancelar;
         private System.Windows.Forms.ListBox lstAlacena;
+        private System.Windows.Forms.GroupBox mrcHeladera;
+        private System.Windows.Forms.NumericUpDown nudCantidad2;
+        private System.Windows.Forms.ComboBox cboMarca;
+        private System.Windows.Forms.Label lblMarca2;
+        private System.Windows.Forms.Label lblCantidad2;
+        private System.Windows.Forms.Label lblProductos2;
+        private System.Windows.Forms.ComboBox cboProducto2;
+        private System.Windows.Forms.ListBox lstHeladera;
     }
 }
