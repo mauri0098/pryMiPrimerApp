@@ -184,9 +184,11 @@
             // 
             this.cboMarca.FormattingEnabled = true;
             this.cboMarca.Items.AddRange(new object[] {
-            "Rosamonte",
-            "Dos Hermanos",
-            "Don felipe"});
+            "Serenisima",
+            "Huevo San Juan",
+            "CoCa Cola",
+            "Pepsi",
+            "Finlandia "});
             this.cboMarca.Location = new System.Drawing.Point(118, 84);
             this.cboMarca.Name = "cboMarca";
             this.cboMarca.Size = new System.Drawing.Size(95, 21);
@@ -223,10 +225,11 @@
             // 
             this.cboProducto2.FormattingEnabled = true;
             this.cboProducto2.Items.AddRange(new object[] {
-            "Fideos",
-            "Arroz",
-            "Azucar",
-            "Yerba"});
+            "Huevo",
+            "Leche",
+            "Yogur",
+            "Queso",
+            "Bebidas"});
             this.cboProducto2.Location = new System.Drawing.Point(120, 26);
             this.cboProducto2.Name = "cboProducto2";
             this.cboProducto2.Size = new System.Drawing.Size(95, 21);

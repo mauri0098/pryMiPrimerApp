@@ -77,7 +77,7 @@ namespace pryMiPrimerApp
         {
             varproducto2 = cboProducto2.Text;
             varMarca = cboMarca.Text;
-            varcantidad2 = 
+            
             varProducto = cboProducto.Text;
             varMarca2 = cboMarca2.Text;
             varCantidad = Convert.ToInt32(nudCantidad.Value);
