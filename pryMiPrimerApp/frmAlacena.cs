@@ -13,7 +13,7 @@ namespace pryMiPrimerApp
     public partial class frmAlacena : Form
     {
         //decalracion de variables
-        string varProductosLacteos, varProducto, varMarca, varMarca2;
+        string varProductosLacteos, varProducto, varMarca, varMarca2, varproducto2, varmarca, varcantidad2;
 
         int varCantidad;
           
@@ -75,13 +75,16 @@ namespace pryMiPrimerApp
 
         private void cmdGuardar_Click(object sender, EventArgs e)
         {
+            varproducto2 = cboProducto2.Text;
+            varMarca = cboMarca.Text;
+            varcantidad2 = 
             varProducto = cboProducto.Text;
             varMarca2 = cboMarca2.Text;
             varCantidad = Convert.ToInt32(nudCantidad.Value);
             //varCantidad = int.Parse(nudCantidad.value);
-
+            lstHeladera.Items.Add(varproducto2 + " " + varMarca + " " + varcantidad2);
             lstAlacena.Items.Add(varProducto + " " + varMarca2 + " " + varCantidad);
-
+            
         }
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
