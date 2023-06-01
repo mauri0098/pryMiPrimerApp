@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fmrPrincipal));
             this.cmdAlmacen = new System.Windows.Forms.Button();
             this.cmdFinanzas = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -62,6 +63,7 @@
             this.ClientSize = new System.Drawing.Size(460, 304);
             this.Controls.Add(this.cmdFinanzas);
             this.Controls.Add(this.cmdAlmacen);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "fmrPrincipal";
             this.Text = "fmrprincipal";
             this.ResumeLayout(false);

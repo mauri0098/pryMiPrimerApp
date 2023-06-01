@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmAlmancen));
             this.mrcAlacena = new System.Windows.Forms.GroupBox();
             this.nudCantidad = new System.Windows.Forms.NumericUpDown();
             this.lstMarca2 = new System.Windows.Forms.ComboBox();
@@ -293,6 +294,7 @@
             this.Controls.Add(this.cmdGuardar);
             this.Controls.Add(this.mrcAlacena);
             this.ForeColor = System.Drawing.Color.Peru;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmAlmancen";
             this.Text = "Almacen";
             this.Load += new System.EventHandler(this.frmAlacena_Load);
