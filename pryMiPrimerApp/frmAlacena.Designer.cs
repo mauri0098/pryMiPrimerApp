@@ -86,10 +86,11 @@
             "Dos Hermanos",
             "Don felipe",
             "Zulka"});
-            this.lstMarca2.Location = new System.Drawing.Point(86, 91);
+            this.lstMarca2.Location = new System.Drawing.Point(86, 96);
             this.lstMarca2.Name = "lstMarca2";
             this.lstMarca2.Size = new System.Drawing.Size(106, 25);
             this.lstMarca2.TabIndex = 6;
+            this.lstMarca2.SelectedIndexChanged += new System.EventHandler(this.lstMarca2_SelectedIndexChanged);
             // 
             // lblMarca
             // 
@@ -120,7 +121,7 @@
             this.lblProductos.AutoSize = true;
             this.lblProductos.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblProductos.ForeColor = System.Drawing.Color.Black;
-            this.lblProductos.Location = new System.Drawing.Point(6, 34);
+            this.lblProductos.Location = new System.Drawing.Point(6, 35);
             this.lblProductos.Name = "lblProductos";
             this.lblProductos.Size = new System.Drawing.Size(74, 17);
             this.lblProductos.TabIndex = 2;

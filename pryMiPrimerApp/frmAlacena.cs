@@ -93,6 +93,11 @@ namespace pryMiPrimerApp
 
         }
 
+        private void lstMarca2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
         private void cmdGuardar_Click(object sender, EventArgs e)
         {
             varproducto2 = lstProducto2.Text;
