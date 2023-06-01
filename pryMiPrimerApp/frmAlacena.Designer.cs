@@ -30,21 +30,21 @@
         {
             this.mrcAlacena = new System.Windows.Forms.GroupBox();
             this.nudCantidad = new System.Windows.Forms.NumericUpDown();
-            this.cboMarca2 = new System.Windows.Forms.ComboBox();
+            this.lstMarca2 = new System.Windows.Forms.ComboBox();
             this.lblMarca = new System.Windows.Forms.Label();
             this.lblCantidad = new System.Windows.Forms.Label();
             this.lblProductos = new System.Windows.Forms.Label();
-            this.cboProducto = new System.Windows.Forms.ComboBox();
+            this.lstProducto = new System.Windows.Forms.ComboBox();
             this.cmdGuardar = new System.Windows.Forms.Button();
             this.cmdCancelar = new System.Windows.Forms.Button();
             this.lstAlacena = new System.Windows.Forms.ListBox();
             this.mrcHeladera = new System.Windows.Forms.GroupBox();
             this.nudCantidad2 = new System.Windows.Forms.NumericUpDown();
-            this.cboMarca = new System.Windows.Forms.ComboBox();
+            this.lstMarca = new System.Windows.Forms.ComboBox();
             this.lblMarca2 = new System.Windows.Forms.Label();
             this.lblCantidad2 = new System.Windows.Forms.Label();
             this.lblProductos2 = new System.Windows.Forms.Label();
-            this.cboProducto2 = new System.Windows.Forms.ComboBox();
+            this.lstProducto2 = new System.Windows.Forms.ComboBox();
             this.lstHeladera = new System.Windows.Forms.ListBox();
             this.mrcAlacena.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudCantidad)).BeginInit();
@@ -55,11 +55,11 @@
             // mrcAlacena
             // 
             this.mrcAlacena.Controls.Add(this.nudCantidad);
-            this.mrcAlacena.Controls.Add(this.cboMarca2);
+            this.mrcAlacena.Controls.Add(this.lstMarca2);
             this.mrcAlacena.Controls.Add(this.lblMarca);
             this.mrcAlacena.Controls.Add(this.lblCantidad);
             this.mrcAlacena.Controls.Add(this.lblProductos);
-            this.mrcAlacena.Controls.Add(this.cboProducto);
+            this.mrcAlacena.Controls.Add(this.lstProducto);
             this.mrcAlacena.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mrcAlacena.ForeColor = System.Drawing.Color.Black;
             this.mrcAlacena.Location = new System.Drawing.Point(3, 163);
@@ -72,31 +72,31 @@
             // nudCantidad
             // 
             this.nudCantidad.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nudCantidad.Location = new System.Drawing.Point(86, 57);
+            this.nudCantidad.Location = new System.Drawing.Point(86, 61);
             this.nudCantidad.Name = "nudCantidad";
             this.nudCantidad.Size = new System.Drawing.Size(106, 23);
             this.nudCantidad.TabIndex = 7;
             // 
-            // cboMarca2
+            // lstMarca2
             // 
-            this.cboMarca2.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cboMarca2.FormattingEnabled = true;
-            this.cboMarca2.Items.AddRange(new object[] {
+            this.lstMarca2.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lstMarca2.FormattingEnabled = true;
+            this.lstMarca2.Items.AddRange(new object[] {
             "Rosamonte",
             "Dos Hermanos",
             "Don felipe",
             "Zulka"});
-            this.cboMarca2.Location = new System.Drawing.Point(86, 86);
-            this.cboMarca2.Name = "cboMarca2";
-            this.cboMarca2.Size = new System.Drawing.Size(106, 25);
-            this.cboMarca2.TabIndex = 6;
+            this.lstMarca2.Location = new System.Drawing.Point(86, 91);
+            this.lstMarca2.Name = "lstMarca2";
+            this.lstMarca2.Size = new System.Drawing.Size(106, 25);
+            this.lstMarca2.TabIndex = 6;
             // 
             // lblMarca
             // 
             this.lblMarca.AutoSize = true;
             this.lblMarca.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMarca.ForeColor = System.Drawing.Color.Black;
-            this.lblMarca.Location = new System.Drawing.Point(9, 89);
+            this.lblMarca.Location = new System.Drawing.Point(9, 99);
             this.lblMarca.Name = "lblMarca";
             this.lblMarca.Size = new System.Drawing.Size(45, 17);
             this.lblMarca.TabIndex = 4;
@@ -127,19 +127,19 @@
             this.lblProductos.Text = "Productos ";
             this.lblProductos.Click += new System.EventHandler(this.label3_Click);
             // 
-            // cboProducto
+            // lstProducto
             // 
-            this.cboProducto.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cboProducto.FormattingEnabled = true;
-            this.cboProducto.Items.AddRange(new object[] {
+            this.lstProducto.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lstProducto.FormattingEnabled = true;
+            this.lstProducto.Items.AddRange(new object[] {
             "Fideos",
             "Arroz",
             "Azucar",
             "Yerba"});
-            this.cboProducto.Location = new System.Drawing.Point(86, 27);
-            this.cboProducto.Name = "cboProducto";
-            this.cboProducto.Size = new System.Drawing.Size(106, 25);
-            this.cboProducto.TabIndex = 0;
+            this.lstProducto.Location = new System.Drawing.Point(86, 27);
+            this.lstProducto.Name = "lstProducto";
+            this.lstProducto.Size = new System.Drawing.Size(106, 25);
+            this.lstProducto.TabIndex = 0;
             // 
             // cmdGuardar
             // 
@@ -179,11 +179,11 @@
             // mrcHeladera
             // 
             this.mrcHeladera.Controls.Add(this.nudCantidad2);
-            this.mrcHeladera.Controls.Add(this.cboMarca);
+            this.mrcHeladera.Controls.Add(this.lstMarca);
             this.mrcHeladera.Controls.Add(this.lblMarca2);
             this.mrcHeladera.Controls.Add(this.lblCantidad2);
             this.mrcHeladera.Controls.Add(this.lblProductos2);
-            this.mrcHeladera.Controls.Add(this.cboProducto2);
+            this.mrcHeladera.Controls.Add(this.lstProducto2);
             this.mrcHeladera.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mrcHeladera.ForeColor = System.Drawing.Color.Black;
             this.mrcHeladera.Location = new System.Drawing.Point(3, 12);
@@ -202,28 +202,28 @@
             this.nudCantidad2.Size = new System.Drawing.Size(106, 23);
             this.nudCantidad2.TabIndex = 7;
             // 
-            // cboMarca
+            // lstMarca
             // 
-            this.cboMarca.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cboMarca.FormattingEnabled = true;
-            this.cboMarca.Items.AddRange(new object[] {
+            this.lstMarca.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lstMarca.FormattingEnabled = true;
+            this.lstMarca.Items.AddRange(new object[] {
             "Huevo San Juan",
             "La Serenisima",
             "CoCa Cola",
             "Pepsi",
             "Finlandia "});
-            this.cboMarca.Location = new System.Drawing.Point(86, 89);
-            this.cboMarca.Name = "cboMarca";
-            this.cboMarca.Size = new System.Drawing.Size(106, 25);
-            this.cboMarca.TabIndex = 6;
-            this.cboMarca.SelectedIndexChanged += new System.EventHandler(this.cboMarca_SelectedIndexChanged);
+            this.lstMarca.Location = new System.Drawing.Point(86, 94);
+            this.lstMarca.Name = "lstMarca";
+            this.lstMarca.Size = new System.Drawing.Size(106, 25);
+            this.lstMarca.TabIndex = 6;
+            this.lstMarca.SelectedIndexChanged += new System.EventHandler(this.cboMarca_SelectedIndexChanged);
             // 
             // lblMarca2
             // 
             this.lblMarca2.AutoSize = true;
             this.lblMarca2.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMarca2.ForeColor = System.Drawing.Color.Black;
-            this.lblMarca2.Location = new System.Drawing.Point(9, 96);
+            this.lblMarca2.Location = new System.Drawing.Point(9, 102);
             this.lblMarca2.Name = "lblMarca2";
             this.lblMarca2.Size = new System.Drawing.Size(45, 17);
             this.lblMarca2.TabIndex = 4;
@@ -235,7 +235,7 @@
             this.lblCantidad2.AutoSize = true;
             this.lblCantidad2.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCantidad2.ForeColor = System.Drawing.Color.Black;
-            this.lblCantidad2.Location = new System.Drawing.Point(1, 62);
+            this.lblCantidad2.Location = new System.Drawing.Point(6, 68);
             this.lblCantidad2.Name = "lblCantidad2";
             this.lblCantidad2.Size = new System.Drawing.Size(63, 17);
             this.lblCantidad2.TabIndex = 3;
@@ -246,26 +246,27 @@
             this.lblProductos2.AutoSize = true;
             this.lblProductos2.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblProductos2.ForeColor = System.Drawing.Color.Black;
-            this.lblProductos2.Location = new System.Drawing.Point(1, 36);
+            this.lblProductos2.Location = new System.Drawing.Point(6, 34);
             this.lblProductos2.Name = "lblProductos2";
             this.lblProductos2.Size = new System.Drawing.Size(74, 17);
             this.lblProductos2.TabIndex = 2;
             this.lblProductos2.Text = "Productos ";
             // 
-            // cboProducto2
+            // lstProducto2
             // 
-            this.cboProducto2.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cboProducto2.FormattingEnabled = true;
-            this.cboProducto2.Items.AddRange(new object[] {
+            this.lstProducto2.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lstProducto2.FormattingEnabled = true;
+            this.lstProducto2.Items.AddRange(new object[] {
             "Huevo",
             "Leche",
             "Yogur",
             "Queso",
             "Bebidas"});
-            this.cboProducto2.Location = new System.Drawing.Point(86, 31);
-            this.cboProducto2.Name = "cboProducto2";
-            this.cboProducto2.Size = new System.Drawing.Size(106, 25);
-            this.cboProducto2.TabIndex = 0;
+            this.lstProducto2.Location = new System.Drawing.Point(86, 31);
+            this.lstProducto2.Name = "lstProducto2";
+            this.lstProducto2.Size = new System.Drawing.Size(106, 25);
+            this.lstProducto2.TabIndex = 0;
+            this.lstProducto2.SelectedIndexChanged += new System.EventHandler(this.cboProducto2_SelectedIndexChanged);
             // 
             // lstHeladera
             // 
@@ -306,22 +307,22 @@
 
         #endregion
         private System.Windows.Forms.GroupBox mrcAlacena;
-        private System.Windows.Forms.ComboBox cboMarca2;
+        private System.Windows.Forms.ComboBox lstMarca2;
         private System.Windows.Forms.Label lblMarca;
         private System.Windows.Forms.Label lblCantidad;
         private System.Windows.Forms.Label lblProductos;
-        private System.Windows.Forms.ComboBox cboProducto;
+        private System.Windows.Forms.ComboBox lstProducto;
         private System.Windows.Forms.NumericUpDown nudCantidad;
         private System.Windows.Forms.Button cmdGuardar;
         private System.Windows.Forms.Button cmdCancelar;
         private System.Windows.Forms.ListBox lstAlacena;
         private System.Windows.Forms.GroupBox mrcHeladera;
         private System.Windows.Forms.NumericUpDown nudCantidad2;
-        private System.Windows.Forms.ComboBox cboMarca;
+        private System.Windows.Forms.ComboBox lstMarca;
         private System.Windows.Forms.Label lblMarca2;
         private System.Windows.Forms.Label lblCantidad2;
         private System.Windows.Forms.Label lblProductos2;
-        private System.Windows.Forms.ComboBox cboProducto2;
+        private System.Windows.Forms.ComboBox lstProducto2;
         private System.Windows.Forms.ListBox lstHeladera;
     }
 }

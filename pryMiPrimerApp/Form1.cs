@@ -80,7 +80,7 @@ namespace pryMiPrimerApp
         private void cmdgrabar_Click(object sender, EventArgs e)
         {
             varalquiler = Convert.ToDecimal(txtAlquiler.Text);
-            varingreso = Convert.ToDecimal(txtIngreso.Text);
+            varingreso = Convert.ToDecimal(txtDepocito.Text);
             varmonto = Convert.ToDecimal(txtMonto.Text);
             varcomida = Convert.ToDecimal(txtComida.Text);
 

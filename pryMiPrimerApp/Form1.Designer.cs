@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmFinanzas));
-            this.txtIngreso = new System.Windows.Forms.TextBox();
+            this.txtDepocito = new System.Windows.Forms.TextBox();
             this.mrcGastoFijo = new System.Windows.Forms.GroupBox();
             this.txtComida = new System.Windows.Forms.TextBox();
             this.txtImpuesto = new System.Windows.Forms.TextBox();
@@ -49,15 +49,15 @@
             this.mrcIngresos.SuspendLayout();
             this.SuspendLayout();
             // 
-            // txtIngreso
+            // txtDepocito
             // 
-            this.txtIngreso.Font = new System.Drawing.Font("Microsoft YaHei UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtIngreso.Location = new System.Drawing.Point(84, 36);
-            this.txtIngreso.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.txtIngreso.Name = "txtIngreso";
-            this.txtIngreso.Size = new System.Drawing.Size(86, 21);
-            this.txtIngreso.TabIndex = 1;
-            this.txtIngreso.TextChanged += new System.EventHandler(this.txtIngreso_TextChanged);
+            this.txtDepocito.Font = new System.Drawing.Font("Microsoft YaHei UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDepocito.Location = new System.Drawing.Point(84, 36);
+            this.txtDepocito.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtDepocito.Name = "txtDepocito";
+            this.txtDepocito.Size = new System.Drawing.Size(86, 21);
+            this.txtDepocito.TabIndex = 1;
+            this.txtDepocito.TextChanged += new System.EventHandler(this.txtIngreso_TextChanged);
             // 
             // mrcGastoFijo
             // 
@@ -72,7 +72,7 @@
             this.mrcGastoFijo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.mrcGastoFijo.Name = "mrcGastoFijo";
             this.mrcGastoFijo.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.mrcGastoFijo.Size = new System.Drawing.Size(245, 110);
+            this.mrcGastoFijo.Size = new System.Drawing.Size(239, 110);
             this.mrcGastoFijo.TabIndex = 2;
             this.mrcGastoFijo.TabStop = false;
             this.mrcGastoFijo.Text = "Gasto Fijo";
@@ -149,7 +149,7 @@
             this.mrcGastosVarios.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.mrcGastosVarios.Name = "mrcGastosVarios";
             this.mrcGastosVarios.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.mrcGastosVarios.Size = new System.Drawing.Size(245, 82);
+            this.mrcGastosVarios.Size = new System.Drawing.Size(239, 82);
             this.mrcGastosVarios.TabIndex = 3;
             this.mrcGastosVarios.TabStop = false;
             this.mrcGastosVarios.Text = "Gastos Varios";
@@ -204,13 +204,13 @@
             // mrcIngresos
             // 
             this.mrcIngresos.Controls.Add(this.lblDeposito);
-            this.mrcIngresos.Controls.Add(this.txtIngreso);
+            this.mrcIngresos.Controls.Add(this.txtDepocito);
             this.mrcIngresos.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mrcIngresos.Location = new System.Drawing.Point(3, 1);
             this.mrcIngresos.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.mrcIngresos.Name = "mrcIngresos";
             this.mrcIngresos.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.mrcIngresos.Size = new System.Drawing.Size(245, 89);
+            this.mrcIngresos.Size = new System.Drawing.Size(239, 89);
             this.mrcIngresos.TabIndex = 2;
             this.mrcIngresos.TabStop = false;
             this.mrcIngresos.Text = "Ingresos";
@@ -230,7 +230,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightCyan;
-            this.ClientSize = new System.Drawing.Size(276, 353);
+            this.ClientSize = new System.Drawing.Size(276, 345);
             this.Controls.Add(this.mrcIngresos);
             this.Controls.Add(this.cmdGrabar);
             this.Controls.Add(this.mrcGastoFijo);
@@ -254,7 +254,7 @@
         }
 
         #endregion
-        private System.Windows.Forms.TextBox txtIngreso;
+        private System.Windows.Forms.TextBox txtDepocito;
         private System.Windows.Forms.GroupBox mrcGastoFijo;
         private System.Windows.Forms.Label lblAlquiler;
         private System.Windows.Forms.Label lblImpuesto;

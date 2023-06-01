@@ -88,14 +88,19 @@ namespace pryMiPrimerApp
 
         }
 
+        private void cboProducto2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
         private void cmdGuardar_Click(object sender, EventArgs e)
         {
-            varproducto2 = cboProducto2.Text;
-            varMarca = cboMarca.Text;
+            varproducto2 = lstProducto2.Text;
+            varMarca = lstMarca.Text;
             varcantidad2 = Convert.ToInt32(nudCantidad2.Value);
             //varCantidad2 = int.Parse(nudCantidad2.value);
-            varProducto = cboProducto.Text;
-            varMarca2 = cboMarca2.Text;
+            varProducto = lstProducto.Text;
+            varMarca2 = lstMarca2.Text;
             varCantidad = Convert.ToInt32(nudCantidad.Value);
             //varCantidad = int.Parse(nudCantidad.value);
             lstHeladera.Items.Add(varproducto2 + " " + varMarca + " " + varcantidad2);
