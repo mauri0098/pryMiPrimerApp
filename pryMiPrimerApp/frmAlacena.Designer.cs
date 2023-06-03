@@ -153,7 +153,7 @@
             // 
             this.cmdGuardar.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmdGuardar.ForeColor = System.Drawing.Color.Black;
-            this.cmdGuardar.Location = new System.Drawing.Point(15, 428);
+            this.cmdGuardar.Location = new System.Drawing.Point(15, 425);
             this.cmdGuardar.Name = "cmdGuardar";
             this.cmdGuardar.Size = new System.Drawing.Size(75, 27);
             this.cmdGuardar.TabIndex = 2;
@@ -165,7 +165,7 @@
             // 
             this.cmdCancelar.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmdCancelar.ForeColor = System.Drawing.Color.Black;
-            this.cmdCancelar.Location = new System.Drawing.Point(120, 428);
+            this.cmdCancelar.Location = new System.Drawing.Point(120, 426);
             this.cmdCancelar.Name = "cmdCancelar";
             this.cmdCancelar.Size = new System.Drawing.Size(75, 27);
             this.cmdCancelar.TabIndex = 3;
@@ -299,7 +299,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Linen;
-            this.ClientSize = new System.Drawing.Size(238, 488);
+            this.ClientSize = new System.Drawing.Size(240, 464);
             this.Controls.Add(this.lstHeladera);
             this.Controls.Add(this.mrcHeladera);
             this.Controls.Add(this.lstAlacena);
