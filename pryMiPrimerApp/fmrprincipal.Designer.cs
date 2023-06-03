@@ -65,7 +65,7 @@
             this.Controls.Add(this.cmdAlmacen);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "fmrPrincipal";
-            this.Text = "fmrprincipal";
+            this.Text = "Principal";
             this.ResumeLayout(false);
 
         }

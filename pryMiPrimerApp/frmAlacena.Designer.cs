@@ -33,8 +33,8 @@
             this.nudCantidad = new System.Windows.Forms.NumericUpDown();
             this.lstMarca2 = new System.Windows.Forms.ComboBox();
             this.lblMarca = new System.Windows.Forms.Label();
-            this.lblCantidad = new System.Windows.Forms.Label();
-            this.lblProductos = new System.Windows.Forms.Label();
+            this.IblCantidad = new System.Windows.Forms.Label();
+            this.IblProductos = new System.Windows.Forms.Label();
             this.lstProducto = new System.Windows.Forms.ComboBox();
             this.cmdGuardar = new System.Windows.Forms.Button();
             this.cmdCancelar = new System.Windows.Forms.Button();
@@ -42,9 +42,9 @@
             this.mrcHeladera = new System.Windows.Forms.GroupBox();
             this.nudCantidad2 = new System.Windows.Forms.NumericUpDown();
             this.lstMarca = new System.Windows.Forms.ComboBox();
-            this.lblMarca2 = new System.Windows.Forms.Label();
-            this.lblCantidad2 = new System.Windows.Forms.Label();
-            this.lblProductos2 = new System.Windows.Forms.Label();
+            this.IblMarca2 = new System.Windows.Forms.Label();
+            this.IblCantidad2 = new System.Windows.Forms.Label();
+            this.IblProductos2 = new System.Windows.Forms.Label();
             this.lstProducto2 = new System.Windows.Forms.ComboBox();
             this.lstHeladera = new System.Windows.Forms.ListBox();
             this.mrcAlacena.SuspendLayout();
@@ -58,8 +58,8 @@
             this.mrcAlacena.Controls.Add(this.nudCantidad);
             this.mrcAlacena.Controls.Add(this.lstMarca2);
             this.mrcAlacena.Controls.Add(this.lblMarca);
-            this.mrcAlacena.Controls.Add(this.lblCantidad);
-            this.mrcAlacena.Controls.Add(this.lblProductos);
+            this.mrcAlacena.Controls.Add(this.IblCantidad);
+            this.mrcAlacena.Controls.Add(this.IblProductos);
             this.mrcAlacena.Controls.Add(this.lstProducto);
             this.mrcAlacena.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mrcAlacena.ForeColor = System.Drawing.Color.Black;
@@ -73,7 +73,7 @@
             // nudCantidad
             // 
             this.nudCantidad.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nudCantidad.Location = new System.Drawing.Point(86, 61);
+            this.nudCantidad.Location = new System.Drawing.Point(86, 63);
             this.nudCantidad.Name = "nudCantidad";
             this.nudCantidad.Size = new System.Drawing.Size(106, 23);
             this.nudCantidad.TabIndex = 7;
@@ -86,7 +86,10 @@
             "Rosamonte",
             "Dos Hermanos",
             "Don felipe",
-            "Zulka"});
+            "Zulka",
+            "Arcor",
+            "La Virginia",
+            "Litorial"});
             this.lstMarca2.Location = new System.Drawing.Point(86, 96);
             this.lstMarca2.Name = "lstMarca2";
             this.lstMarca2.Size = new System.Drawing.Size(106, 25);
@@ -98,36 +101,36 @@
             this.lblMarca.AutoSize = true;
             this.lblMarca.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMarca.ForeColor = System.Drawing.Color.Black;
-            this.lblMarca.Location = new System.Drawing.Point(9, 99);
+            this.lblMarca.Location = new System.Drawing.Point(9, 104);
             this.lblMarca.Name = "lblMarca";
             this.lblMarca.Size = new System.Drawing.Size(45, 17);
             this.lblMarca.TabIndex = 4;
             this.lblMarca.Text = "Marca";
             this.lblMarca.Click += new System.EventHandler(this.iblMarca_Click);
             // 
-            // lblCantidad
+            // IblCantidad
             // 
-            this.lblCantidad.AutoSize = true;
-            this.lblCantidad.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCantidad.ForeColor = System.Drawing.Color.Black;
-            this.lblCantidad.Location = new System.Drawing.Point(6, 63);
-            this.lblCantidad.Name = "lblCantidad";
-            this.lblCantidad.Size = new System.Drawing.Size(63, 17);
-            this.lblCantidad.TabIndex = 3;
-            this.lblCantidad.Text = "Cantidad";
-            this.lblCantidad.Click += new System.EventHandler(this.iblCantidad_Click);
+            this.IblCantidad.AutoSize = true;
+            this.IblCantidad.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.IblCantidad.ForeColor = System.Drawing.Color.Black;
+            this.IblCantidad.Location = new System.Drawing.Point(6, 69);
+            this.IblCantidad.Name = "IblCantidad";
+            this.IblCantidad.Size = new System.Drawing.Size(63, 17);
+            this.IblCantidad.TabIndex = 3;
+            this.IblCantidad.Text = "Cantidad";
+            this.IblCantidad.Click += new System.EventHandler(this.iblCantidad_Click);
             // 
-            // lblProductos
+            // IblProductos
             // 
-            this.lblProductos.AutoSize = true;
-            this.lblProductos.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblProductos.ForeColor = System.Drawing.Color.Black;
-            this.lblProductos.Location = new System.Drawing.Point(6, 35);
-            this.lblProductos.Name = "lblProductos";
-            this.lblProductos.Size = new System.Drawing.Size(74, 17);
-            this.lblProductos.TabIndex = 2;
-            this.lblProductos.Text = "Productos ";
-            this.lblProductos.Click += new System.EventHandler(this.label3_Click);
+            this.IblProductos.AutoSize = true;
+            this.IblProductos.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.IblProductos.ForeColor = System.Drawing.Color.Black;
+            this.IblProductos.Location = new System.Drawing.Point(6, 35);
+            this.IblProductos.Name = "IblProductos";
+            this.IblProductos.Size = new System.Drawing.Size(74, 17);
+            this.IblProductos.TabIndex = 2;
+            this.IblProductos.Text = "Productos ";
+            this.IblProductos.Click += new System.EventHandler(this.label3_Click);
             // 
             // lstProducto
             // 
@@ -137,8 +140,11 @@
             "Fideos",
             "Arroz",
             "Azucar",
-            "Yerba"});
-            this.lstProducto.Location = new System.Drawing.Point(86, 27);
+            "Yerba",
+            "Polenta ",
+            "Te",
+            "Mate Cocido"});
+            this.lstProducto.Location = new System.Drawing.Point(86, 32);
             this.lstProducto.Name = "lstProducto";
             this.lstProducto.Size = new System.Drawing.Size(106, 25);
             this.lstProducto.TabIndex = 0;
@@ -182,9 +188,9 @@
             // 
             this.mrcHeladera.Controls.Add(this.nudCantidad2);
             this.mrcHeladera.Controls.Add(this.lstMarca);
-            this.mrcHeladera.Controls.Add(this.lblMarca2);
-            this.mrcHeladera.Controls.Add(this.lblCantidad2);
-            this.mrcHeladera.Controls.Add(this.lblProductos2);
+            this.mrcHeladera.Controls.Add(this.IblMarca2);
+            this.mrcHeladera.Controls.Add(this.IblCantidad2);
+            this.mrcHeladera.Controls.Add(this.IblProductos2);
             this.mrcHeladera.Controls.Add(this.lstProducto2);
             this.mrcHeladera.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mrcHeladera.ForeColor = System.Drawing.Color.Black;
@@ -199,7 +205,7 @@
             // nudCantidad2
             // 
             this.nudCantidad2.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nudCantidad2.Location = new System.Drawing.Point(86, 62);
+            this.nudCantidad2.Location = new System.Drawing.Point(86, 65);
             this.nudCantidad2.Name = "nudCantidad2";
             this.nudCantidad2.Size = new System.Drawing.Size(106, 23);
             this.nudCantidad2.TabIndex = 7;
@@ -213,46 +219,49 @@
             "La Serenisima",
             "CoCa Cola",
             "Pepsi",
-            "Finlandia "});
-            this.lstMarca.Location = new System.Drawing.Point(86, 94);
+            "Finlandia ",
+            "Super Cerdo",
+            "Hellmann\'s",
+            "La Paulina"});
+            this.lstMarca.Location = new System.Drawing.Point(86, 99);
             this.lstMarca.Name = "lstMarca";
             this.lstMarca.Size = new System.Drawing.Size(106, 25);
             this.lstMarca.TabIndex = 6;
             this.lstMarca.SelectedIndexChanged += new System.EventHandler(this.cboMarca_SelectedIndexChanged);
             // 
-            // lblMarca2
+            // IblMarca2
             // 
-            this.lblMarca2.AutoSize = true;
-            this.lblMarca2.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMarca2.ForeColor = System.Drawing.Color.Black;
-            this.lblMarca2.Location = new System.Drawing.Point(9, 102);
-            this.lblMarca2.Name = "lblMarca2";
-            this.lblMarca2.Size = new System.Drawing.Size(45, 17);
-            this.lblMarca2.TabIndex = 4;
-            this.lblMarca2.Text = "Marca";
-            this.lblMarca2.Click += new System.EventHandler(this.lblMarca2_Click);
+            this.IblMarca2.AutoSize = true;
+            this.IblMarca2.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.IblMarca2.ForeColor = System.Drawing.Color.Black;
+            this.IblMarca2.Location = new System.Drawing.Point(9, 102);
+            this.IblMarca2.Name = "IblMarca2";
+            this.IblMarca2.Size = new System.Drawing.Size(45, 17);
+            this.IblMarca2.TabIndex = 4;
+            this.IblMarca2.Text = "Marca";
+            this.IblMarca2.Click += new System.EventHandler(this.lblMarca2_Click);
             // 
-            // lblCantidad2
+            // IblCantidad2
             // 
-            this.lblCantidad2.AutoSize = true;
-            this.lblCantidad2.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCantidad2.ForeColor = System.Drawing.Color.Black;
-            this.lblCantidad2.Location = new System.Drawing.Point(6, 68);
-            this.lblCantidad2.Name = "lblCantidad2";
-            this.lblCantidad2.Size = new System.Drawing.Size(63, 17);
-            this.lblCantidad2.TabIndex = 3;
-            this.lblCantidad2.Text = "Cantidad";
+            this.IblCantidad2.AutoSize = true;
+            this.IblCantidad2.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.IblCantidad2.ForeColor = System.Drawing.Color.Black;
+            this.IblCantidad2.Location = new System.Drawing.Point(6, 68);
+            this.IblCantidad2.Name = "IblCantidad2";
+            this.IblCantidad2.Size = new System.Drawing.Size(63, 17);
+            this.IblCantidad2.TabIndex = 3;
+            this.IblCantidad2.Text = "Cantidad";
             // 
-            // lblProductos2
+            // IblProductos2
             // 
-            this.lblProductos2.AutoSize = true;
-            this.lblProductos2.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblProductos2.ForeColor = System.Drawing.Color.Black;
-            this.lblProductos2.Location = new System.Drawing.Point(6, 34);
-            this.lblProductos2.Name = "lblProductos2";
-            this.lblProductos2.Size = new System.Drawing.Size(74, 17);
-            this.lblProductos2.TabIndex = 2;
-            this.lblProductos2.Text = "Productos ";
+            this.IblProductos2.AutoSize = true;
+            this.IblProductos2.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.IblProductos2.ForeColor = System.Drawing.Color.Black;
+            this.IblProductos2.Location = new System.Drawing.Point(6, 34);
+            this.IblProductos2.Name = "IblProductos2";
+            this.IblProductos2.Size = new System.Drawing.Size(74, 17);
+            this.IblProductos2.TabIndex = 2;
+            this.IblProductos2.Text = "Productos ";
             // 
             // lstProducto2
             // 
@@ -263,7 +272,10 @@
             "Leche",
             "Yogur",
             "Queso",
-            "Bebidas"});
+            "Bebidas",
+            "Jamon",
+            "Mayonesa",
+            "Crema"});
             this.lstProducto2.Location = new System.Drawing.Point(86, 31);
             this.lstProducto2.Name = "lstProducto2";
             this.lstProducto2.Size = new System.Drawing.Size(106, 25);
@@ -312,8 +324,8 @@
         private System.Windows.Forms.GroupBox mrcAlacena;
         private System.Windows.Forms.ComboBox lstMarca2;
         private System.Windows.Forms.Label lblMarca;
-        private System.Windows.Forms.Label lblCantidad;
-        private System.Windows.Forms.Label lblProductos;
+        private System.Windows.Forms.Label IblCantidad;
+        private System.Windows.Forms.Label IblProductos;
         private System.Windows.Forms.ComboBox lstProducto;
         private System.Windows.Forms.NumericUpDown nudCantidad;
         private System.Windows.Forms.Button cmdGuardar;
@@ -322,9 +334,9 @@
         private System.Windows.Forms.GroupBox mrcHeladera;
         private System.Windows.Forms.NumericUpDown nudCantidad2;
         private System.Windows.Forms.ComboBox lstMarca;
-        private System.Windows.Forms.Label lblMarca2;
-        private System.Windows.Forms.Label lblCantidad2;
-        private System.Windows.Forms.Label lblProductos2;
+        private System.Windows.Forms.Label IblMarca2;
+        private System.Windows.Forms.Label IblCantidad2;
+        private System.Windows.Forms.Label IblProductos2;
         private System.Windows.Forms.ComboBox lstProducto2;
         private System.Windows.Forms.ListBox lstHeladera;
     }

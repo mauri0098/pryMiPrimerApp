@@ -34,16 +34,16 @@
             this.txtComida = new System.Windows.Forms.TextBox();
             this.txtImpuesto = new System.Windows.Forms.TextBox();
             this.txtAlquiler = new System.Windows.Forms.TextBox();
-            this.lblComida = new System.Windows.Forms.Label();
-            this.lblImpuesto = new System.Windows.Forms.Label();
-            this.lblAlquiler = new System.Windows.Forms.Label();
+            this.IblComida = new System.Windows.Forms.Label();
+            this.IblImpuesto = new System.Windows.Forms.Label();
+            this.IblAlquiler = new System.Windows.Forms.Label();
             this.mrcGastosVarios = new System.Windows.Forms.GroupBox();
             this.txtMonto = new System.Windows.Forms.TextBox();
-            this.lblMonto = new System.Windows.Forms.Label();
+            this.IblMonto = new System.Windows.Forms.Label();
             this.cmdCancelar = new System.Windows.Forms.Button();
             this.cmdGrabar = new System.Windows.Forms.Button();
             this.mrcIngresos = new System.Windows.Forms.GroupBox();
-            this.lblDeposito = new System.Windows.Forms.Label();
+            this.IblDeposito = new System.Windows.Forms.Label();
             this.mrcGastoFijo.SuspendLayout();
             this.mrcGastosVarios.SuspendLayout();
             this.mrcIngresos.SuspendLayout();
@@ -64,9 +64,9 @@
             this.mrcGastoFijo.Controls.Add(this.txtComida);
             this.mrcGastoFijo.Controls.Add(this.txtImpuesto);
             this.mrcGastoFijo.Controls.Add(this.txtAlquiler);
-            this.mrcGastoFijo.Controls.Add(this.lblComida);
-            this.mrcGastoFijo.Controls.Add(this.lblImpuesto);
-            this.mrcGastoFijo.Controls.Add(this.lblAlquiler);
+            this.mrcGastoFijo.Controls.Add(this.IblComida);
+            this.mrcGastoFijo.Controls.Add(this.IblImpuesto);
+            this.mrcGastoFijo.Controls.Add(this.IblAlquiler);
             this.mrcGastoFijo.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mrcGastoFijo.Location = new System.Drawing.Point(3, 98);
             this.mrcGastoFijo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -100,50 +100,50 @@
             // txtAlquiler
             // 
             this.txtAlquiler.Font = new System.Drawing.Font("Microsoft YaHei UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtAlquiler.Location = new System.Drawing.Point(84, 23);
+            this.txtAlquiler.Location = new System.Drawing.Point(84, 26);
             this.txtAlquiler.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtAlquiler.Name = "txtAlquiler";
             this.txtAlquiler.Size = new System.Drawing.Size(86, 21);
             this.txtAlquiler.TabIndex = 3;
             this.txtAlquiler.TextChanged += new System.EventHandler(this.txtalquiler_TextChanged);
             // 
-            // lblComida
+            // IblComida
             // 
-            this.lblComida.AutoSize = true;
-            this.lblComida.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblComida.Location = new System.Drawing.Point(3, 79);
-            this.lblComida.Name = "lblComida";
-            this.lblComida.Size = new System.Drawing.Size(61, 19);
-            this.lblComida.TabIndex = 2;
-            this.lblComida.Text = "Comida";
-            this.lblComida.Click += new System.EventHandler(this.iblcomida_Click);
+            this.IblComida.AutoSize = true;
+            this.IblComida.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.IblComida.Location = new System.Drawing.Point(3, 79);
+            this.IblComida.Name = "IblComida";
+            this.IblComida.Size = new System.Drawing.Size(61, 19);
+            this.IblComida.TabIndex = 2;
+            this.IblComida.Text = "Comida";
+            this.IblComida.Click += new System.EventHandler(this.iblcomida_Click);
             // 
-            // lblImpuesto
+            // IblImpuesto
             // 
-            this.lblImpuesto.AutoSize = true;
-            this.lblImpuesto.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblImpuesto.Location = new System.Drawing.Point(3, 52);
-            this.lblImpuesto.Name = "lblImpuesto";
-            this.lblImpuesto.Size = new System.Drawing.Size(71, 19);
-            this.lblImpuesto.TabIndex = 1;
-            this.lblImpuesto.Text = "Impuesto";
-            this.lblImpuesto.Click += new System.EventHandler(this.label2_Click);
+            this.IblImpuesto.AutoSize = true;
+            this.IblImpuesto.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.IblImpuesto.Location = new System.Drawing.Point(3, 52);
+            this.IblImpuesto.Name = "IblImpuesto";
+            this.IblImpuesto.Size = new System.Drawing.Size(71, 19);
+            this.IblImpuesto.TabIndex = 1;
+            this.IblImpuesto.Text = "Impuesto";
+            this.IblImpuesto.Click += new System.EventHandler(this.label2_Click);
             // 
-            // lblAlquiler
+            // IblAlquiler
             // 
-            this.lblAlquiler.AutoSize = true;
-            this.lblAlquiler.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAlquiler.Location = new System.Drawing.Point(4, 26);
-            this.lblAlquiler.Name = "lblAlquiler";
-            this.lblAlquiler.Size = new System.Drawing.Size(62, 19);
-            this.lblAlquiler.TabIndex = 0;
-            this.lblAlquiler.Text = "Alquiler";
-            this.lblAlquiler.Click += new System.EventHandler(this.label1_Click_3);
+            this.IblAlquiler.AutoSize = true;
+            this.IblAlquiler.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.IblAlquiler.Location = new System.Drawing.Point(4, 26);
+            this.IblAlquiler.Name = "IblAlquiler";
+            this.IblAlquiler.Size = new System.Drawing.Size(62, 19);
+            this.IblAlquiler.TabIndex = 0;
+            this.IblAlquiler.Text = "Alquiler";
+            this.IblAlquiler.Click += new System.EventHandler(this.label1_Click_3);
             // 
             // mrcGastosVarios
             // 
             this.mrcGastosVarios.Controls.Add(this.txtMonto);
-            this.mrcGastosVarios.Controls.Add(this.lblMonto);
+            this.mrcGastosVarios.Controls.Add(this.IblMonto);
             this.mrcGastosVarios.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mrcGastosVarios.Location = new System.Drawing.Point(3, 216);
             this.mrcGastosVarios.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -165,15 +165,15 @@
             this.txtMonto.TabIndex = 1;
             this.txtMonto.TextChanged += new System.EventHandler(this.txtMonto_TextChanged);
             // 
-            // lblMonto
+            // IblMonto
             // 
-            this.lblMonto.AutoSize = true;
-            this.lblMonto.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMonto.Location = new System.Drawing.Point(12, 28);
-            this.lblMonto.Name = "lblMonto";
-            this.lblMonto.Size = new System.Drawing.Size(53, 19);
-            this.lblMonto.TabIndex = 0;
-            this.lblMonto.Text = "Monto";
+            this.IblMonto.AutoSize = true;
+            this.IblMonto.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.IblMonto.Location = new System.Drawing.Point(12, 28);
+            this.IblMonto.Name = "IblMonto";
+            this.IblMonto.Size = new System.Drawing.Size(53, 19);
+            this.IblMonto.TabIndex = 0;
+            this.IblMonto.Text = "Monto";
             // 
             // cmdCancelar
             // 
@@ -203,7 +203,7 @@
             // 
             // mrcIngresos
             // 
-            this.mrcIngresos.Controls.Add(this.lblDeposito);
+            this.mrcIngresos.Controls.Add(this.IblDeposito);
             this.mrcIngresos.Controls.Add(this.txtDeposito);
             this.mrcIngresos.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mrcIngresos.Location = new System.Drawing.Point(3, 1);
@@ -215,15 +215,15 @@
             this.mrcIngresos.TabStop = false;
             this.mrcIngresos.Text = "Ingresos";
             // 
-            // lblDeposito
+            // IblDeposito
             // 
-            this.lblDeposito.AutoSize = true;
-            this.lblDeposito.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDeposito.Location = new System.Drawing.Point(4, 36);
-            this.lblDeposito.Name = "lblDeposito";
-            this.lblDeposito.Size = new System.Drawing.Size(69, 19);
-            this.lblDeposito.TabIndex = 2;
-            this.lblDeposito.Text = "Deposito";
+            this.IblDeposito.AutoSize = true;
+            this.IblDeposito.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.IblDeposito.Location = new System.Drawing.Point(4, 36);
+            this.IblDeposito.Name = "IblDeposito";
+            this.IblDeposito.Size = new System.Drawing.Size(69, 19);
+            this.IblDeposito.TabIndex = 2;
+            this.IblDeposito.Text = "Deposito";
             // 
             // frmFinanzas
             // 
@@ -256,11 +256,11 @@
         #endregion
         private System.Windows.Forms.TextBox txtDeposito;
         private System.Windows.Forms.GroupBox mrcGastoFijo;
-        private System.Windows.Forms.Label lblAlquiler;
-        private System.Windows.Forms.Label lblImpuesto;
-        private System.Windows.Forms.Label lblComida;
+        private System.Windows.Forms.Label IblAlquiler;
+        private System.Windows.Forms.Label IblImpuesto;
+        private System.Windows.Forms.Label IblComida;
         private System.Windows.Forms.GroupBox mrcGastosVarios;
-        private System.Windows.Forms.Label lblMonto;
+        private System.Windows.Forms.Label IblMonto;
         private System.Windows.Forms.TextBox txtComida;
         private System.Windows.Forms.TextBox txtImpuesto;
         private System.Windows.Forms.TextBox txtAlquiler;
@@ -268,7 +268,7 @@
         private System.Windows.Forms.Button cmdCancelar;
         private System.Windows.Forms.Button cmdGrabar;
         private System.Windows.Forms.GroupBox mrcIngresos;
-        private System.Windows.Forms.Label lblDeposito;
+        private System.Windows.Forms.Label IblDeposito;
     }
 }
 
