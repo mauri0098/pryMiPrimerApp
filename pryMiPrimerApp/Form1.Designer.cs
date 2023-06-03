@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmFinanzas));
-            this.txtDepocito = new System.Windows.Forms.TextBox();
+            this.txtDeposito = new System.Windows.Forms.TextBox();
             this.mrcGastoFijo = new System.Windows.Forms.GroupBox();
             this.txtComida = new System.Windows.Forms.TextBox();
             this.txtImpuesto = new System.Windows.Forms.TextBox();
@@ -49,15 +49,15 @@
             this.mrcIngresos.SuspendLayout();
             this.SuspendLayout();
             // 
-            // txtDepocito
+            // txtDeposito
             // 
-            this.txtDepocito.Font = new System.Drawing.Font("Microsoft YaHei UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDepocito.Location = new System.Drawing.Point(84, 36);
-            this.txtDepocito.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.txtDepocito.Name = "txtDepocito";
-            this.txtDepocito.Size = new System.Drawing.Size(86, 21);
-            this.txtDepocito.TabIndex = 1;
-            this.txtDepocito.TextChanged += new System.EventHandler(this.txtIngreso_TextChanged);
+            this.txtDeposito.Font = new System.Drawing.Font("Microsoft YaHei UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDeposito.Location = new System.Drawing.Point(84, 36);
+            this.txtDeposito.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtDeposito.Name = "txtDeposito";
+            this.txtDeposito.Size = new System.Drawing.Size(86, 21);
+            this.txtDeposito.TabIndex = 1;
+            this.txtDeposito.TextChanged += new System.EventHandler(this.txtIngreso_TextChanged);
             // 
             // mrcGastoFijo
             // 
@@ -204,7 +204,7 @@
             // mrcIngresos
             // 
             this.mrcIngresos.Controls.Add(this.lblDeposito);
-            this.mrcIngresos.Controls.Add(this.txtDepocito);
+            this.mrcIngresos.Controls.Add(this.txtDeposito);
             this.mrcIngresos.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mrcIngresos.Location = new System.Drawing.Point(3, 1);
             this.mrcIngresos.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -254,7 +254,7 @@
         }
 
         #endregion
-        private System.Windows.Forms.TextBox txtDepocito;
+        private System.Windows.Forms.TextBox txtDeposito;
         private System.Windows.Forms.GroupBox mrcGastoFijo;
         private System.Windows.Forms.Label lblAlquiler;
         private System.Windows.Forms.Label lblImpuesto;
