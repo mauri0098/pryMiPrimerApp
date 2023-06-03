@@ -63,7 +63,7 @@
             this.mrcAlacena.Controls.Add(this.lstProducto);
             this.mrcAlacena.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mrcAlacena.ForeColor = System.Drawing.Color.Black;
-            this.mrcAlacena.Location = new System.Drawing.Point(3, 163);
+            this.mrcAlacena.Location = new System.Drawing.Point(3, 219);
             this.mrcAlacena.Name = "mrcAlacena";
             this.mrcAlacena.Size = new System.Drawing.Size(231, 140);
             this.mrcAlacena.TabIndex = 1;
@@ -151,11 +151,11 @@
             // 
             // cmdGuardar
             // 
-            this.cmdGuardar.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmdGuardar.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmdGuardar.ForeColor = System.Drawing.Color.Black;
-            this.cmdGuardar.Location = new System.Drawing.Point(15, 433);
+            this.cmdGuardar.Location = new System.Drawing.Point(15, 428);
             this.cmdGuardar.Name = "cmdGuardar";
-            this.cmdGuardar.Size = new System.Drawing.Size(75, 43);
+            this.cmdGuardar.Size = new System.Drawing.Size(75, 27);
             this.cmdGuardar.TabIndex = 2;
             this.cmdGuardar.Text = "Guardar";
             this.cmdGuardar.UseVisualStyleBackColor = true;
@@ -163,11 +163,11 @@
             // 
             // cmdCancelar
             // 
-            this.cmdCancelar.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmdCancelar.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmdCancelar.ForeColor = System.Drawing.Color.Black;
-            this.cmdCancelar.Location = new System.Drawing.Point(145, 433);
+            this.cmdCancelar.Location = new System.Drawing.Point(120, 428);
             this.cmdCancelar.Name = "cmdCancelar";
-            this.cmdCancelar.Size = new System.Drawing.Size(75, 43);
+            this.cmdCancelar.Size = new System.Drawing.Size(75, 27);
             this.cmdCancelar.TabIndex = 3;
             this.cmdCancelar.Text = "Cancelar";
             this.cmdCancelar.UseVisualStyleBackColor = true;
@@ -178,7 +178,7 @@
             this.lstAlacena.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lstAlacena.FormattingEnabled = true;
             this.lstAlacena.ItemHeight = 17;
-            this.lstAlacena.Location = new System.Drawing.Point(3, 370);
+            this.lstAlacena.Location = new System.Drawing.Point(3, 365);
             this.lstAlacena.Name = "lstAlacena";
             this.lstAlacena.Size = new System.Drawing.Size(231, 55);
             this.lstAlacena.TabIndex = 4;
@@ -288,7 +288,7 @@
             this.lstHeladera.ForeColor = System.Drawing.Color.Black;
             this.lstHeladera.FormattingEnabled = true;
             this.lstHeladera.ItemHeight = 17;
-            this.lstHeladera.Location = new System.Drawing.Point(3, 309);
+            this.lstHeladera.Location = new System.Drawing.Point(3, 158);
             this.lstHeladera.Name = "lstHeladera";
             this.lstHeladera.Size = new System.Drawing.Size(231, 55);
             this.lstHeladera.TabIndex = 6;
@@ -298,7 +298,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Linen;
-            this.ClientSize = new System.Drawing.Size(242, 488);
+            this.ClientSize = new System.Drawing.Size(238, 488);
             this.Controls.Add(this.lstHeladera);
             this.Controls.Add(this.mrcHeladera);
             this.Controls.Add(this.lstAlacena);
