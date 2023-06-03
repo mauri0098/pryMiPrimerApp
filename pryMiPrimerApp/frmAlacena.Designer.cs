@@ -205,10 +205,11 @@
             // nudCantidad2
             // 
             this.nudCantidad2.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nudCantidad2.Location = new System.Drawing.Point(86, 65);
+            this.nudCantidad2.Location = new System.Drawing.Point(86, 62);
             this.nudCantidad2.Name = "nudCantidad2";
             this.nudCantidad2.Size = new System.Drawing.Size(106, 23);
             this.nudCantidad2.TabIndex = 7;
+            this.nudCantidad2.ValueChanged += new System.EventHandler(this.nudCantidad2_ValueChanged);
             // 
             // lstMarca
             // 
@@ -223,7 +224,7 @@
             "Super Cerdo",
             "Hellmann\'s",
             "La Paulina"});
-            this.lstMarca.Location = new System.Drawing.Point(86, 99);
+            this.lstMarca.Location = new System.Drawing.Point(86, 94);
             this.lstMarca.Name = "lstMarca";
             this.lstMarca.Size = new System.Drawing.Size(106, 25);
             this.lstMarca.TabIndex = 6;
