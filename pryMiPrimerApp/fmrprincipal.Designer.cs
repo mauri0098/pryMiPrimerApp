@@ -65,6 +65,7 @@
             this.Controls.Add(this.cmdAlmacen);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "fmrPrincipal";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Principal";
             this.ResumeLayout(false);
 

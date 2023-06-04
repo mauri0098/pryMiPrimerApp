@@ -241,6 +241,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "frmFinanzas";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Gestion de Finanzas";
             this.Load += new System.EventHandler(this.frmPrincipal_Load);
             this.mrcGastoFijo.ResumeLayout(false);

@@ -153,7 +153,7 @@
             // 
             this.cmdGuardar.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmdGuardar.ForeColor = System.Drawing.Color.Black;
-            this.cmdGuardar.Location = new System.Drawing.Point(15, 425);
+            this.cmdGuardar.Location = new System.Drawing.Point(15, 426);
             this.cmdGuardar.Name = "cmdGuardar";
             this.cmdGuardar.Size = new System.Drawing.Size(75, 27);
             this.cmdGuardar.TabIndex = 2;
@@ -309,6 +309,7 @@
             this.ForeColor = System.Drawing.Color.Peru;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmAlmancen";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Almacen";
             this.Load += new System.EventHandler(this.frmAlacena_Load);
             this.mrcAlacena.ResumeLayout(false);
