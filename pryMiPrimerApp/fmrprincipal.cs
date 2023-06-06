@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace pryMiPrimerApp
 {
-    public partial class fmrPrincipal : Form
+    public partial class frmPrincipal : Form
     {
-        public fmrPrincipal()
+        public frmPrincipal()
         {
             InitializeComponent();
         }

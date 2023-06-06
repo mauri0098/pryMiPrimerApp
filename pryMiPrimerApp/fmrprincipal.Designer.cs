@@ -1,6 +1,6 @@
 ﻿namespace pryMiPrimerApp
 {
-    partial class fmrPrincipal
+    partial class frmPrincipal
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fmrPrincipal));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPrincipal));
             this.cmdAlmacen = new System.Windows.Forms.Button();
             this.cmdFinanzas = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -55,7 +55,7 @@
             this.cmdFinanzas.UseVisualStyleBackColor = false;
             this.cmdFinanzas.Click += new System.EventHandler(this.button2_Click);
             // 
-            // fmrPrincipal
+            // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -64,7 +64,7 @@
             this.Controls.Add(this.cmdFinanzas);
             this.Controls.Add(this.cmdAlmacen);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "fmrPrincipal";
+            this.Name = "frmPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Principal";
             this.ResumeLayout(false);
