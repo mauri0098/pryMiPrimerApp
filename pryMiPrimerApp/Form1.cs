@@ -79,12 +79,13 @@ namespace pryMiPrimerApp
 
         private void cmdgrabar_Click(object sender, EventArgs e)
         {
+            varalquiler = Convert.ToDecimal(txtAlquiler.Text);
             varDeposito = Convert.ToDecimal(txtDeposito.Text);
             vargasto = Convert.ToDecimal(txtMonto.Text);
             varcomida = Convert.ToDecimal(txtComida.Text);
             varimpuesto = Convert.ToDecimal(txtImpuesto.Text);
             decimal total = varDeposito - (varalquiler + varcomida + vargasto + varcomida + varimpuesto);
-            lblTotal.Text = total.ToString();  
+            txtTotal.Text = total.ToString();  
         }
 
         private void txtalquiler_TextChanged(object sender, EventArgs e)
@@ -103,6 +104,11 @@ namespace pryMiPrimerApp
         }
 
         private void txtIngreso_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtTotal_TextChanged(object sender, EventArgs e)
         {
 
         }

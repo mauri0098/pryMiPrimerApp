@@ -45,7 +45,7 @@
             this.mrcIngresos = new System.Windows.Forms.GroupBox();
             this.IblDeposito = new System.Windows.Forms.Label();
             this.lblTotal = new System.Windows.Forms.Label();
-            this.lblMontoTotal = new System.Windows.Forms.Label();
+            this.txtTotal = new System.Windows.Forms.TextBox();
             this.mrcGastoFijo.SuspendLayout();
             this.mrcGastosVarios.SuspendLayout();
             this.mrcIngresos.SuspendLayout();
@@ -186,10 +186,10 @@
             // 
             this.cmdCancelar.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmdCancelar.ForeColor = System.Drawing.Color.Black;
-            this.cmdCancelar.Location = new System.Drawing.Point(130, 362);
+            this.cmdCancelar.Location = new System.Drawing.Point(143, 366);
             this.cmdCancelar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.cmdCancelar.Name = "cmdCancelar";
-            this.cmdCancelar.Size = new System.Drawing.Size(76, 36);
+            this.cmdCancelar.Size = new System.Drawing.Size(76, 30);
             this.cmdCancelar.TabIndex = 4;
             this.cmdCancelar.Text = "Cancelar";
             this.cmdCancelar.UseVisualStyleBackColor = true;
@@ -197,12 +197,12 @@
             // 
             // cmdGrabar
             // 
-            this.cmdGrabar.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmdGrabar.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmdGrabar.ForeColor = System.Drawing.Color.Black;
-            this.cmdGrabar.Location = new System.Drawing.Point(19, 362);
+            this.cmdGrabar.Location = new System.Drawing.Point(30, 367);
             this.cmdGrabar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.cmdGrabar.Name = "cmdGrabar";
-            this.cmdGrabar.Size = new System.Drawing.Size(77, 36);
+            this.cmdGrabar.Size = new System.Drawing.Size(77, 30);
             this.cmdGrabar.TabIndex = 5;
             this.cmdGrabar.Text = "Grabar";
             this.cmdGrabar.UseVisualStyleBackColor = true;
@@ -235,24 +235,23 @@
             // lblTotal
             // 
             this.lblTotal.AutoSize = true;
-            this.lblTotal.Font = new System.Drawing.Font("Arial Black", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTotal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblTotal.Location = new System.Drawing.Point(132, 319);
+            this.lblTotal.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotal.ForeColor = System.Drawing.Color.Black;
+            this.lblTotal.Location = new System.Drawing.Point(16, 318);
             this.lblTotal.Name = "lblTotal";
-            this.lblTotal.Size = new System.Drawing.Size(65, 27);
-            this.lblTotal.TabIndex = 6;
+            this.lblTotal.Size = new System.Drawing.Size(53, 26);
+            this.lblTotal.TabIndex = 7;
             this.lblTotal.Text = "Total";
             // 
-            // lblMontoTotal
+            // txtTotal
             // 
-            this.lblMontoTotal.AutoSize = true;
-            this.lblMontoTotal.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMontoTotal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblMontoTotal.Location = new System.Drawing.Point(24, 323);
-            this.lblMontoTotal.Name = "lblMontoTotal";
-            this.lblMontoTotal.Size = new System.Drawing.Size(102, 23);
-            this.lblMontoTotal.TabIndex = 7;
-            this.lblMontoTotal.Text = "MontoTotal";
+            this.txtTotal.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTotal.Location = new System.Drawing.Point(87, 321);
+            this.txtTotal.Name = "txtTotal";
+            this.txtTotal.Size = new System.Drawing.Size(86, 23);
+            this.txtTotal.TabIndex = 8;
+            this.txtTotal.Text = "0";
+            this.txtTotal.TextChanged += new System.EventHandler(this.txtTotal_TextChanged);
             // 
             // frmFinanzas
             // 
@@ -260,7 +259,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightCyan;
             this.ClientSize = new System.Drawing.Size(276, 409);
-            this.Controls.Add(this.lblMontoTotal);
+            this.Controls.Add(this.txtTotal);
             this.Controls.Add(this.lblTotal);
             this.Controls.Add(this.mrcIngresos);
             this.Controls.Add(this.cmdGrabar);
@@ -303,7 +302,7 @@
         private System.Windows.Forms.GroupBox mrcIngresos;
         private System.Windows.Forms.Label IblDeposito;
         private System.Windows.Forms.Label lblTotal;
-        private System.Windows.Forms.Label lblMontoTotal;
+        private System.Windows.Forms.TextBox txtTotal;
     }
 }
 
