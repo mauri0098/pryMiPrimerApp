@@ -125,6 +125,13 @@ namespace pryMiPrimerApp
 
         private void button1_Click(object sender, EventArgs e)
         {
+          txtAlquiler.Text = 0.ToString();
+          txtComida.Text = 0.ToString();  
+          txtImpuesto.Text = 0.ToString();
+          txtMonto.Text = 0.ToString(); 
+          txtDeposito.Text = 0.ToString();
+          txtTotal.Text = 0.ToString();
+
 
         }
 
