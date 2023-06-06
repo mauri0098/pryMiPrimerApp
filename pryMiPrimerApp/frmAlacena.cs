@@ -140,7 +140,12 @@ namespace pryMiPrimerApp
 
         private void cmdCancelar_Click(object sender, EventArgs e)
         {
-
+            lstProducto2.Text = "";
+            lstMarca.Text = "";
+            lstProducto.Text = "";
+            lstMarca2.Text = "";
+            nudCantidad.Value = 0;
+            nudCantidad2.Value = 0;
         }
     }
 }
