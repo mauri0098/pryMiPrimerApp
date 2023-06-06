@@ -45,6 +45,7 @@
             this.mrcIngresos = new System.Windows.Forms.GroupBox();
             this.IblDeposito = new System.Windows.Forms.Label();
             this.lblTotal = new System.Windows.Forms.Label();
+            this.lblMontoTotal = new System.Windows.Forms.Label();
             this.mrcGastoFijo.SuspendLayout();
             this.mrcGastosVarios.SuspendLayout();
             this.mrcIngresos.SuspendLayout();
@@ -185,7 +186,7 @@
             // 
             this.cmdCancelar.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmdCancelar.ForeColor = System.Drawing.Color.Black;
-            this.cmdCancelar.Location = new System.Drawing.Point(129, 384);
+            this.cmdCancelar.Location = new System.Drawing.Point(130, 362);
             this.cmdCancelar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.cmdCancelar.Name = "cmdCancelar";
             this.cmdCancelar.Size = new System.Drawing.Size(76, 36);
@@ -198,7 +199,7 @@
             // 
             this.cmdGrabar.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmdGrabar.ForeColor = System.Drawing.Color.Black;
-            this.cmdGrabar.Location = new System.Drawing.Point(31, 384);
+            this.cmdGrabar.Location = new System.Drawing.Point(19, 362);
             this.cmdGrabar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.cmdGrabar.Name = "cmdGrabar";
             this.cmdGrabar.Size = new System.Drawing.Size(77, 36);
@@ -235,18 +236,31 @@
             // 
             this.lblTotal.AutoSize = true;
             this.lblTotal.Font = new System.Drawing.Font("Arial Black", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTotal.Location = new System.Drawing.Point(108, 320);
+            this.lblTotal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblTotal.Location = new System.Drawing.Point(132, 319);
             this.lblTotal.Name = "lblTotal";
             this.lblTotal.Size = new System.Drawing.Size(65, 27);
             this.lblTotal.TabIndex = 6;
             this.lblTotal.Text = "Total";
+            // 
+            // lblMontoTotal
+            // 
+            this.lblMontoTotal.AutoSize = true;
+            this.lblMontoTotal.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMontoTotal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblMontoTotal.Location = new System.Drawing.Point(24, 319);
+            this.lblMontoTotal.Name = "lblMontoTotal";
+            this.lblMontoTotal.Size = new System.Drawing.Size(102, 23);
+            this.lblMontoTotal.TabIndex = 7;
+            this.lblMontoTotal.Text = "MontoTotal";
             // 
             // frmFinanzas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightCyan;
-            this.ClientSize = new System.Drawing.Size(276, 433);
+            this.ClientSize = new System.Drawing.Size(276, 409);
+            this.Controls.Add(this.lblMontoTotal);
             this.Controls.Add(this.lblTotal);
             this.Controls.Add(this.mrcIngresos);
             this.Controls.Add(this.cmdGrabar);
@@ -289,6 +303,7 @@
         private System.Windows.Forms.GroupBox mrcIngresos;
         private System.Windows.Forms.Label IblDeposito;
         private System.Windows.Forms.Label lblTotal;
+        private System.Windows.Forms.Label lblMontoTotal;
     }
 }
 

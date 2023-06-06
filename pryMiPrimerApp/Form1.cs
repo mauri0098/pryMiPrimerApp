@@ -83,7 +83,7 @@ namespace pryMiPrimerApp
             vargasto = Convert.ToDecimal(txtMonto.Text);
             varcomida = Convert.ToDecimal(txtComida.Text);
             varimpuesto = Convert.ToDecimal(txtImpuesto.Text);
-            decimal total = varDeposito - (varalquiler + varcomida + vargasto + varcomida);
+            decimal total = varDeposito - (varalquiler + varcomida + vargasto + varcomida + varimpuesto);
             lblTotal.Text = total.ToString();  
         }
 
@@ -129,7 +129,7 @@ namespace pryMiPrimerApp
             varcomida = 0;
             varDeposito = 0;
             vargasto = 0;
-            vargasto = 0;
+            varimpuesto = 0;
             
           
         }
