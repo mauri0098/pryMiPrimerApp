@@ -186,7 +186,7 @@
             // 
             this.cmdCancelar.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmdCancelar.ForeColor = System.Drawing.Color.Black;
-            this.cmdCancelar.Location = new System.Drawing.Point(130, 366);
+            this.cmdCancelar.Location = new System.Drawing.Point(128, 367);
             this.cmdCancelar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.cmdCancelar.Name = "cmdCancelar";
             this.cmdCancelar.Size = new System.Drawing.Size(76, 30);
