@@ -84,7 +84,7 @@ namespace pryMiPrimerApp
             vargasto = Convert.ToDecimal(txtMonto.Text);
             varcomida = Convert.ToDecimal(txtComida.Text);
             varimpuesto = Convert.ToDecimal(txtImpuesto.Text);
-            decimal total = varDeposito - (varalquiler + varcomida + vargasto + varcomida + varimpuesto);
+            decimal total = varDeposito - (varalquiler + varcomida + vargasto + varimpuesto);
             txtTotal.Text = total.ToString();  
         }
 

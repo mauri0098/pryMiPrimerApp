@@ -199,7 +199,7 @@
             // 
             this.cmdGrabar.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmdGrabar.ForeColor = System.Drawing.Color.Black;
-            this.cmdGrabar.Location = new System.Drawing.Point(30, 367);
+            this.cmdGrabar.Location = new System.Drawing.Point(32, 367);
             this.cmdGrabar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.cmdGrabar.Name = "cmdGrabar";
             this.cmdGrabar.Size = new System.Drawing.Size(77, 30);
