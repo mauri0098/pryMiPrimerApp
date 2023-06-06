@@ -12,9 +12,9 @@ namespace pryMiPrimerApp
 {
     public partial class frmFinanzas : Form
     {
-   
+
         //decalracion de variables 
-        decimal varingreso, varalquiler, varcomida, varmonto;
+        decimal varDeposito, varalquiler, varcomida, vargasto, varimpuesto;
 
 
         public frmFinanzas()
@@ -79,13 +79,12 @@ namespace pryMiPrimerApp
 
         private void cmdgrabar_Click(object sender, EventArgs e)
         {
-            varalquiler = Convert.ToDecimal(txtAlquiler.Text);
-            varingreso = Convert.ToDecimal(txtDeposito.Text);
-            varmonto = Convert.ToDecimal(txtMonto.Text);
+            varDeposito = Convert.ToDecimal(txtDeposito.Text);
+            vargasto = Convert.ToDecimal(txtMonto.Text);
             varcomida = Convert.ToDecimal(txtComida.Text);
-
-            varmonto = varingreso - (varalquiler - varcomida);
-            txtMonto.Text = varmonto.ToString();
+            varimpuesto = Convert.ToDecimal(txtImpuesto.Text);
+            decimal total = varDeposito - (varalquiler + varcomida + vargasto + varcomida);
+            lblTotal.Text = total.ToString();  
         }
 
         private void txtalquiler_TextChanged(object sender, EventArgs e)
@@ -128,9 +127,10 @@ namespace pryMiPrimerApp
             //inicialiazar variables - buena practica 
             varalquiler = 0;
             varcomida = 0;
-            varingreso = 0;
-            varmonto = 0;
-
+            varDeposito = 0;
+            vargasto = 0;
+            vargasto = 0;
+            
           
         }
     }

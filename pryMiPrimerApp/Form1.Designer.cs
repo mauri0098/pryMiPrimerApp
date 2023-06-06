@@ -44,6 +44,7 @@
             this.cmdGrabar = new System.Windows.Forms.Button();
             this.mrcIngresos = new System.Windows.Forms.GroupBox();
             this.IblDeposito = new System.Windows.Forms.Label();
+            this.lblTotal = new System.Windows.Forms.Label();
             this.mrcGastoFijo.SuspendLayout();
             this.mrcGastosVarios.SuspendLayout();
             this.mrcIngresos.SuspendLayout();
@@ -57,6 +58,7 @@
             this.txtDeposito.Name = "txtDeposito";
             this.txtDeposito.Size = new System.Drawing.Size(86, 21);
             this.txtDeposito.TabIndex = 1;
+            this.txtDeposito.Text = "0";
             this.txtDeposito.TextChanged += new System.EventHandler(this.txtIngreso_TextChanged);
             // 
             // mrcGastoFijo
@@ -86,6 +88,7 @@
             this.txtComida.Name = "txtComida";
             this.txtComida.Size = new System.Drawing.Size(86, 21);
             this.txtComida.TabIndex = 5;
+            this.txtComida.Text = "0";
             this.txtComida.TextChanged += new System.EventHandler(this.txtComida_TextChanged);
             // 
             // txtImpuesto
@@ -96,6 +99,7 @@
             this.txtImpuesto.Name = "txtImpuesto";
             this.txtImpuesto.Size = new System.Drawing.Size(86, 21);
             this.txtImpuesto.TabIndex = 4;
+            this.txtImpuesto.Text = "0";
             // 
             // txtAlquiler
             // 
@@ -105,6 +109,7 @@
             this.txtAlquiler.Name = "txtAlquiler";
             this.txtAlquiler.Size = new System.Drawing.Size(86, 21);
             this.txtAlquiler.TabIndex = 3;
+            this.txtAlquiler.Text = "0";
             this.txtAlquiler.TextChanged += new System.EventHandler(this.txtalquiler_TextChanged);
             // 
             // IblComida
@@ -163,6 +168,7 @@
             this.txtMonto.Name = "txtMonto";
             this.txtMonto.Size = new System.Drawing.Size(86, 21);
             this.txtMonto.TabIndex = 1;
+            this.txtMonto.Text = "0";
             this.txtMonto.TextChanged += new System.EventHandler(this.txtMonto_TextChanged);
             // 
             // IblMonto
@@ -179,7 +185,7 @@
             // 
             this.cmdCancelar.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmdCancelar.ForeColor = System.Drawing.Color.Black;
-            this.cmdCancelar.Location = new System.Drawing.Point(128, 306);
+            this.cmdCancelar.Location = new System.Drawing.Point(129, 384);
             this.cmdCancelar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.cmdCancelar.Name = "cmdCancelar";
             this.cmdCancelar.Size = new System.Drawing.Size(76, 36);
@@ -192,7 +198,7 @@
             // 
             this.cmdGrabar.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmdGrabar.ForeColor = System.Drawing.Color.Black;
-            this.cmdGrabar.Location = new System.Drawing.Point(19, 306);
+            this.cmdGrabar.Location = new System.Drawing.Point(31, 384);
             this.cmdGrabar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.cmdGrabar.Name = "cmdGrabar";
             this.cmdGrabar.Size = new System.Drawing.Size(77, 36);
@@ -225,12 +231,23 @@
             this.IblDeposito.TabIndex = 2;
             this.IblDeposito.Text = "Deposito";
             // 
+            // lblTotal
+            // 
+            this.lblTotal.AutoSize = true;
+            this.lblTotal.Font = new System.Drawing.Font("Arial Black", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotal.Location = new System.Drawing.Point(108, 320);
+            this.lblTotal.Name = "lblTotal";
+            this.lblTotal.Size = new System.Drawing.Size(65, 27);
+            this.lblTotal.TabIndex = 6;
+            this.lblTotal.Text = "Total";
+            // 
             // frmFinanzas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightCyan;
-            this.ClientSize = new System.Drawing.Size(276, 345);
+            this.ClientSize = new System.Drawing.Size(276, 433);
+            this.Controls.Add(this.lblTotal);
             this.Controls.Add(this.mrcIngresos);
             this.Controls.Add(this.cmdGrabar);
             this.Controls.Add(this.mrcGastoFijo);
@@ -251,6 +268,7 @@
             this.mrcIngresos.ResumeLayout(false);
             this.mrcIngresos.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -270,6 +288,7 @@
         private System.Windows.Forms.Button cmdGrabar;
         private System.Windows.Forms.GroupBox mrcIngresos;
         private System.Windows.Forms.Label IblDeposito;
+        private System.Windows.Forms.Label lblTotal;
     }
 }
 
